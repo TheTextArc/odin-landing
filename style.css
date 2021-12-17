@@ -34,24 +34,33 @@ ul {
 
 .top-banner {
     display: flex;
+    background-color: #1F2937;
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 50px;
     justify-content: space-around;
+    gap: 40px;
+    padding-bottom: 25px;
 }
 
+h1 {
+    color: #F9FAF8;
+}
 
+.top-text {
+    color: #E5E7EB;
+}
 
 .wd {
     width: auto;
-    height: 200px;
+    height: 275px;
 }
 
 .info-title {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .info {
@@ -131,15 +140,25 @@ ul {
     align-self: center;
 }
 
+.parakeet,
 .sell-out {
     background-color: #3882F6;
-    border: 2px solid #F9FAF8;
+    border: 2px solid;
     border-radius: 15px;
     padding: 4px 10px;
     color: #F9FAF8;
 }
 
-.sell-out:hover {
+.sell-out {
+    border-color: #F9FAF8;
+}
+
+.parakeet {
+    border-color: #3882F6;
+}
+
+.sell-out:hover,
+.parakeet:hover {
     background-color: #F9FAF8;
     color: #3882F6;
 }
